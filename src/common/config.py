@@ -11,3 +11,8 @@ KEYCLOAK_CFG = {
     "client_id": os.getenv("CLIENT_ID"),
     "client_secret": os.getenv("CLIENT_SECRET"),
 }
+
+SEQ_CFG = {
+    "url": os.getenv("SEQ_URL", "https://seq.imageangel.co.uk"),
+    "api_key": os.getenv("SEQ_API_KEY"),
+}
